@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id = "ph" class = "spring.homework3.Phone"></bean>
+	
+	<bean id = "prson" class =  "spring.homework3.Person">
+	
+	<property name = "ph" ref = "ph"></property>
+	</bean>
+	
+	</beans>
